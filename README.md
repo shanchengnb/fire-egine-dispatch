@@ -1,67 +1,27 @@
-# 📂 Final Data Description
+## Data Availability Statement
 
-This folder contains three main datasets used for training, evaluation, visualization, and simulation in the project.
+This study provides a subset of publicly available datasets (e.g., drv_time_osrm_renamed, station mapping/xy.pkl), trained models (TRAIN MODEL, models, and tensorboard), analysis code (EVALUATE MODEL), and processed analytical datasets (eval_output) to enable reproduction of the results. Two public OneDrive links are provided, containing the materials necessary for reproducing the analyses, excluding the following datasets:
 
-## 1. osrm.zip
+Original training dataset: real_with_dispatch_info
 
-File: drv_time_osrm_renamed.csv
+Evaluation dataset: wmfs_mobilisations
 
-Content:
+These datasets were supplied by the West Midlands Fire Service and are considered private; therefore, they cannot be shared publicly.
 
-Pre-computed shortest driving times from all fire stations to all incidents (calculated using OSRM).
+The publicly accessible materials include:
 
-Usage:
+Final analytical and visualization datasets derived from the original data
 
-Provides baseline travel time data for routing, dispatch optimization, and simulation.
+Training and evaluation code
 
-## 2. real_with_dispatch_info.zip
+Simulation environment code
 
-File: real_with_dispatch_info.csv
+Trained reinforcement learning models
 
-Content:
+Partial datasets (e.g., OSRM dataset)
 
-The main training dataset for reinforcement learning models (SAC and DQN).
+Additionally, a private GitHub repository contains the complete research package, including the original datasets, processed data, code, and trained models. Access to this repository is currently restricted to the project supervisor, collaborators, and the author.
 
-Each row corresponds to a real incident dispatch record, including event attributes, station information, and dispatched vehicles.
+Researchers interested in reproducing this study may contact the author or collaborators to request access. Any access will strictly follow data sharing agreements, ethical requirements, and the terms of use defined by the data provider.
 
-Usage:
-
-Training reinforcement learning models
-
-Optimizing dispatching strategies
-
-## 3. wmfs_mobilisations and station data.zip
-
-Files:
-
-wmfs_mobilisations.csv
-
-station_mapping.pkl
-
-station_xy.pkl
-
-Station_engine_counts.csv
-
-Content:
-
-Mobilisation records (incident and vehicle dispatch details)
-
-Fire station information (locations, mapping relationships)
-
-Vehicle counts (number of appliances available at each station)
-
-Usage:
-
-Evaluation: Verify and validate model predictions
-
-Visualization: Map-based analysis of incidents, stations, and dispatch flows
-
-Simulation: Reproduce and analyze mobilisation processes under different scenarios
-
-## 📌 Summary:
-
-osrm.zip → Fire station–incident travel times (baseline traffic data)
-
-real_with_dispatch_info.zip → Real dispatch dataset (RL training)
-
-wmfs_mobilisations and station data.zip → Mobilisation records + station info + vehicle data (evaluation, visualization, simulation)
+This arrangement ensures the reproducibility of the research methods and analytical results while respecting the confidentiality and usage restrictions of the West Midlands Fire Service data.
