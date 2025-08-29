@@ -41,7 +41,7 @@ Researchers who require access to the restricted WMFS datasets or to the private
 For access requests and questions, please contact the project supervisor:
 Dr. Huanfa Chen — huanfa.chen@ucl.ac.uk
 
-(Alternatively, contact the paper’s corresponding author — contact details provided in the manuscript.)
+(Alternatively, contact the paper’s corresponding author — contact details:cheng.shan.24@ucl.ac.uk.)
 
 ### Ethics and confidentiality:
 
